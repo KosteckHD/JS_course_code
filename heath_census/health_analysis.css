@@ -1,0 +1,154 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body{
+    background:#f4f7fb;
+}
+
+/* NAVBAR */
+nav{
+    background:#2c3e50;
+    color:white;
+    padding:15px;
+}
+
+nav h1{
+    margin-bottom:10px;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    text-decoration:underline;
+}
+
+nav input{
+    padding:6px;
+    border-radius:5px;
+    border:none;
+}
+
+nav button{
+    padding:6px 12px;
+    border:none;
+    border-radius:5px;
+    background:#3498db;
+    color:white;
+    cursor:pointer;
+}
+
+nav button:hover{
+    background:#2980b9;
+}
+
+/* MAIN CONTAINER */
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:40px;
+}
+
+/* FORM SECTION */
+.analysisForm{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    width:400px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.analysisForm h1{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.analysisForm div{
+    margin-bottom:15px;
+}
+
+.analysisForm label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+.analysisForm input[type="text"],
+.analysisForm input[type="number"],
+.analysisForm select{
+    width:100%;
+    padding:8px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.analysisForm input[type="radio"]{
+    margin-right:5px;
+}
+
+/* BUTTON */
+#addPatient{
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#27ae60;
+    color:white;
+    font-size:16px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#addPatient:hover{
+    background:#219150;
+}
+
+/* REPORT */
+#report{
+    margin-top:15px;
+    background:#ecf0f1;
+    padding:15px;
+    border-radius:5px;
+}
+
+/* SEARCH RESULT */
+.searchCondition{
+    width:350px;
+}
+
+#result{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+#result img{
+    width:100%;
+    border-radius:8px;
+    margin-bottom:10px;
+}
+
+#result h2{
+    margin-bottom:10px;
+}
+
+#result ul{
+    margin-left:20px;
+}
